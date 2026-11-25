@@ -1,19 +1,18 @@
 # Максим Миронов
 
-AI-инженер. Разрабатываю RAG-системы, сервисы на Python и автоматизации; работаю с обработкой документов, речи и компьютерным зрением. Ниже — проекты, по которым можно посмотреть мой подход и код.
+AI-инженер. Создаю приложения и автоматизации на Python, разрабатываю RAG-системы и решения для обработки документов, речи и видео.
 
-## AI и автоматизация
+## Избранные проекты
 
-- **Локальный AI-ассистент** — RAG по базе знаний, поиск с реранкингом, транскрибация с диаризацией и анонимизация. Сервисы на FastAPI работают локально вместе с Ollama, Qdrant, Tika и Whisper. Код репозитория `localai` пока закрыт; описание проекта могу обсудить отдельно.
-- **[n8n-automations](https://github.com/Mladsii/n8n-automations)** — открытые workflows: мониторинг научных публикаций, ответы по накопленным материалам через RAG и синхронизация документов из Google Drive и Nextcloud.
+- [**Company Lookup by Tax ID**](https://github.com/Mladsii/inn-company-lookup) — сервис поиска и обогащения данных о российских компаниях по ИНН/ОГРН. FastAPI, DaData, SearXNG, Playwright; одиночный поиск и пакетная обработка таблиц.
+- [**TennisAI**](https://github.com/Mladsii/tennis) — платформа для теннисного сообщества: мобильное приложение, API, приложение для управления клубом и Telegram-бот. React Native, TypeScript, FastAPI, PostgreSQL.
+- [**n8n-automations**](https://github.com/Mladsii/n8n-automations) — коллекция автоматизаций: мониторинг научных публикаций, RAG-ответы по документам и синхронизация Google Drive и Nextcloud.
+- **Локальный AI-ассистент** — внутренний проект с RAG по базе знаний, реранкингом поиска, транскрибацией с диаризацией и анонимизацией. Использую FastAPI, Ollama, Qdrant, Tika и Whisper. Исходный код не опубликован.
 
-Также работал с LangChain и LangGraph при построении агентных сценариев.
+## Учебные проекты
 
-## Разработка без ИИ
+[**Проекты SkillFactory**](https://github.com/Mladsii/skillfactory-projects) — 11 работ по Python и ООП, Django, FastAPI, JavaScript и React. В каталоге есть, например, [«Силант»](https://github.com/Mladsii/skillfactory-projects/tree/main/projects/silant_project) — full-stack приложение для учёта техники, обслуживания и рекламаций. Все учебные проекты выполнены без помощи ИИ.
 
-- **[Силант](https://github.com/Mladsii/silant_project)** — учебное full-stack приложение для учёта техники, техобслуживания и рекламаций. FastAPI, Django, PostgreSQL, React. **Написано без помощи ИИ.**
-- **[Проекты SkillFactory](https://github.com/Mladsii/skillfactory-projects)** — каталог 11 учебных работ с кратким описанием каждой: Python и ООП, Django, FastAPI, JavaScript и React. **Все выполнены без помощи ИИ.**
+## Технологии
 
-## Основные технологии
-
-`Python` · `FastAPI` · `Django` · `React` · `PostgreSQL` · `Docker` · `n8n` · `RAG` · `Qdrant` · `LangChain` · `LangGraph`
+`Python` · `FastAPI` · `Django` · `React` · `React Native` · `TypeScript` · `PostgreSQL` · `Docker` · `n8n` · `RAG` · `Qdrant` · `LangChain` · `LangGraph`
