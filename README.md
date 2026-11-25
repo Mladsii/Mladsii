@@ -1,44 +1,19 @@
-# Hi, I'm Maksim 👋
+# Максим Миронов
 
-ML engineer focused on **computer vision** and **automation**. I build systems that detect, track, and understand visual data — and automate workflows so humans don't have to.
+AI-инженер. Разрабатываю RAG-системы, сервисы на Python и автоматизации; работаю с обработкой документов, речи и компьютерным зрением. Ниже — проекты, по которым можно посмотреть мой подход и код.
 
----
+## AI и автоматизация
 
-## Stack
+- **Локальный AI-ассистент** — RAG по базе знаний, поиск с реранкингом, транскрибация с диаризацией и анонимизация. Сервисы на FastAPI работают локально вместе с Ollama, Qdrant, Tika и Whisper. Код репозитория `localai` пока закрыт; описание проекта могу обсудить отдельно.
+- **[n8n-automations](https://github.com/Mladsii/n8n-automations)** — открытые workflows: мониторинг научных публикаций, ответы по накопленным материалам через RAG и синхронизация документов из Google Drive и Nextcloud.
 
-**ML / CV**
-`Python` `PyTorch` `YOLOv8` `SAM2` `OpenCV` `scikit-learn` `albumentations`
+Также работал с LangChain и LangGraph при построении агентных сценариев.
 
-**Automation**
-`n8n` `LangChain` `RAG` `Supabase` `OpenAI API`
+## Разработка без ИИ
 
-**Backend**
-`FastAPI` `PostgreSQL` `SQLAlchemy` `Docker` `aiogram`
+- **[Силант](https://github.com/Mladsii/silant_project)** — учебное full-stack приложение для учёта техники, техобслуживания и рекламаций. FastAPI, Django, PostgreSQL, React. **Написано без помощи ИИ.**
+- **[Проекты SkillFactory](https://github.com/Mladsii/skillfactory-projects)** — каталог 11 учебных работ с кратким описанием каждой: Python и ООП, Django, FastAPI, JavaScript и React. **Все выполнены без помощи ИИ.**
 
-**Frontend**
-`React Native` `Next.js` `TypeScript` `TailwindCSS`
+## Основные технологии
 
----
-
-## Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [tennis-ai](https://github.com/Mladsii/tennis) | Sparring partner matching platform with Elo rating | FastAPI, React Native, PostgreSQL |
-| [n8n-automations](https://github.com/Mladsii/n8n-automations) | AI workflows: arXiv monitor + RAG chatbot, document sync | n8n, LangChain, Supabase |
-| [cassava-leaf-pytorch](https://github.com/Mladsii/cassava-leaf-pytorch) | Leaf disease classification, EfficientNet-B3 baseline | PyTorch, timm, wandb |
-| [skillfactory-projects](https://github.com/Mladsii/skillfactory-projects) | Full-stack portfolio from SkillFactory courses | React, Django, Python |
-
----
-
-## Currently Building
-
-- People detection & tracking systems with YOLOv8 + custom regions
-- RAG pipelines over scientific literature (arXiv → Supabase vector DB)
-- Telegram bots for habit tracking with streak analytics
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mladsii&show_icons=true&theme=dark&hide_border=true" />
-</p>
+`Python` · `FastAPI` · `Django` · `React` · `PostgreSQL` · `Docker` · `n8n` · `RAG` · `Qdrant` · `LangChain` · `LangGraph`
